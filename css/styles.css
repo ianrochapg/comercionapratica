@@ -1,0 +1,382 @@
+/*
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #151b3f;
+  color: #0bddb9;
+}
+
+.text-different{
+  color: white;
+}
+.carousel,
+.item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+/* Background images are set within the HTML using inline CSS, not here */
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+
+.navbar-custom {
+  background-color: #222222;
+  border-color: transparent;
+  width: 100%;
+}
+.navbar-custom .navbar-brand {
+  color: #0bddb9;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #0bddb9;
+}
+.navbar-custom .navbar-collapse {
+  border-color: rgba(255, 255, 255, 0.02);
+}
+.navbar-custom .navbar-toggle {
+  background-color: #0bddb9;
+  border-color: #0bddb9;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #0bddb9;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #0bddb9;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #0bddb9;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #0bddb9;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    /*background-color: transparent;*/
+    height: 80px;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color: #222222;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+#evento{
+  padding-top: 80px;
+}
+
+#evento img{
+  height: 350px;
+}
+
+#team{
+  padding-top: 80px;
+}
+
+#map{
+  padding-top: 80px;
+}
+
+#contato{
+  height: 100px;
+  padding-bottom: 200px;
+}
+
+
+.thisone{
+  margin-top: 30px;
+}
+
+.thatone{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+@@media (max-width: 768px) {
+  .btn-mine.menor{
+    font-size: 10px;
+  }
+
+}
+
+.heading{
+  height: 400px;
+  background-image: url('https://www.forest2market.com/hubfs/2016_Website/Home_Images/photo-1425913397330-cf8af2ff40a1.jpg?t=1501182594712');
+}
+
+.btn-mine{
+  background-color: #0bddb9;
+  color: #151b3f;
+  font-size: 50px;
+}
+
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 0px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+ul.social-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.social-buttons li a:hover,
+ul.social-buttons li a:focus,
+ul.social-buttons li a:active {
+  background-color: #0bddb9;
+}
+
+ul.socialis-buttons {
+  margin-bottom: 0;
+}
+ul.socialis-buttons li a {
+  display: block;
+  background-color: #222222;
+  height: 120px;
+  width: 120px;
+  padding-top: 20px;
+  border-radius: 100%;
+  font-size: 20px;
+  line-height: 40px;
+  color: white;
+  outline: none;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
+ul.socialis-buttons li a:hover,
+ul.socialis-buttons li a:focus,
+ul.socialis-buttons li a:active {
+  background-color: #0bddb9;
+}
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
+}
+
+ul.lista{
+  color: white;
+  list-style: none;
+  margin-top: 30px;
+  text-align: left;
+}
+
+/* Map */
+
+.map {
+    height: 500px;
+}
+
+@media(max-width:768px) {
+    .map {
+        height: 75%;
+    }
+}
+
+.map iframe {
+    pointer-events: none;
+}
+
+section.contact {
+  text-align: center;
+  height: 400px;
+  padding-top: 200px;
+  background-color: #151b3f;
+}
+section.contato {
+  text-align: center;
+  height: 100px;
+  padding-top: 50px;
+  background-color: #151b3f;
+}
+section.contact h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contato h2 {
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+section.contact h2 i {
+  color: #dd4b39;
+}
+section.contato h2 i {
+  color: #dd4b39;
+}
+section.contact ul.list-social {
+  margin-bottom: 0;
+}
+section.contato ul.list-social {
+  margin-bottom: 0;
+}
+section.contact ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contato ul.list-social li a {
+  display: block;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  font-size: 40px;
+  border-radius: 100%;
+  color: white;
+}
+section.contact ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contact ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contact ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contact ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contact ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contact ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+section.contato ul.list-social li.social-twitter a {
+  background-color: #1da1f2;
+}
+section.contato ul.list-social li.social-twitter a:hover {
+  background-color: #0d95e8;
+}
+section.contato ul.list-social li.social-facebook a {
+  background-color: #3b5998;
+}
+section.contato ul.list-social li.social-facebook a:hover {
+  background-color: #344e86;
+}
+section.contato ul.list-social li.social-google-plus a {
+  background-color: #dd4b39;
+}
+section.contato ul.list-social li.social-google-plus a:hover {
+  background-color: #d73925;
+}
+footer {
+  background-color: #222222;
+  padding: 25px 0;
+  color: rgba(255, 255, 255, 0.3);
+  text-align: center;
+}
+footer p {
+  font-size: 12px;
+  margin: 0;
+}
+footer ul {
+  margin-bottom: 0;
+}
+footer ul li a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.3);
+}
+footer ul li a:hover,
+footer ul li a:focus,
+footer ul li a:active,
+footer ul li a.active {
+  text-decoration: none;
+}
